@@ -52,7 +52,7 @@ def scrape_billboard_and_create_playlist():
     # Adding songs found into the new playlist
     sp.playlist_add_items(playlist_id=playlist["id"], items=song_uris)
 
-    print("Playlist created successfully!")
+    print("Playlist created successfully on your account!")
 
 if __name__ == "__main__":
     scrape_billboard_and_create_playlist()
